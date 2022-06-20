@@ -1,3 +1,8 @@
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<!-- Mirrored from 2code.info/demo/html/ask-me-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 19 Jun 2022 06:05:57 GMT -->
 <head>
 
 	<!-- Basic Page Needs -->

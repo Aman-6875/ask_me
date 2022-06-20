@@ -1,4 +1,5 @@
-@extends('front_layout');
+@extends('frontend.layouts.master')
+
 @section('content')
 <div class="section-warp ask-me">
 		<div class="container clearfix">
@@ -45,7 +46,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -68,7 +69,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-signal"></i>Poll</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -90,7 +91,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -113,7 +114,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -136,7 +137,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -159,7 +160,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -182,7 +183,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -205,7 +206,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -233,7 +234,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -256,7 +257,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-signal"></i>Poll</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -278,7 +279,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -301,7 +302,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -324,7 +325,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -347,7 +348,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -370,7 +371,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -393,7 +394,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -421,7 +422,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -444,7 +445,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-signal"></i>Poll</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -466,7 +467,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -489,7 +490,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -512,7 +513,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -535,7 +536,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -558,7 +559,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -581,7 +582,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -609,7 +610,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -632,7 +633,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-signal"></i>Poll</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -654,7 +655,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -677,7 +678,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -700,7 +701,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -723,7 +724,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -746,7 +747,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/avatar.png"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/avatar.png"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -769,7 +770,7 @@
 								<a class="question-report" href="#">Report</a>
 								<div class="question-type-main"><i class="icon-question-sign"></i>Question</div>
 								<div class="question-author">
-									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="/assets/images/demo/admin.jpg"></a>
+									<a href="#" original-title="ahmed" class="question-author-img tooltip-n"><span></span><img alt="" src="../ask-me/images/demo/admin.jpg"></a>
 								</div>
 								<div class="question-inner">
 									<div class="clearfix"></div>
@@ -877,21 +878,21 @@
 					<ul>
 						<li>
 							<div class="author-img">
-								<a href="#"><img width="60" height="60" src="/assets/images/demo/admin.jpg" alt=""></a>
+								<a href="#"><img width="60" height="60" src="../ask-me/images/demo/admin.jpg" alt=""></a>
 							</div> 
 							<h6><a href="#">admin</a></h6>
 							<span class="comment">12 Points</span>
 						</li>
 						<li>
 							<div class="author-img">
-								<a href="#"><img width="60" height="60" src="/assets/images/demo/avatar.png" alt=""></a>
+								<a href="#"><img width="60" height="60" src="../ask-me/images/demo/avatar.png" alt=""></a>
 							</div> 
 							<h6><a href="#">vbegy</a></h6>
 							<span class="comment">10 Points</span>
 						</li>
 						<li>
 							<div class="author-img">
-								<a href="#"><img width="60" height="60" src="/assets/images/demo/avatar.png" alt=""></a>
+								<a href="#"><img width="60" height="60" src="../ask-me/images/demo/avatar.png" alt=""></a>
 							</div> 
 							<h6><a href="#">ahmed</a></h6>
 							<span class="comment">5 Points</span>
@@ -930,4 +931,5 @@
 			</aside><!-- End sidebar -->
 		</div><!-- End row -->
 	</section><!-- End container -->
+
 @endsection
